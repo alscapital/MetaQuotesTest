@@ -24,6 +24,7 @@
     <ProjectGuid>{207e59b3-9035-440b-919a-2a6633a01358}</ProjectGuid>
     <RootNamespace>MetaQuetosTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MetaQuotesTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
