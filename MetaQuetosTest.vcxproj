@@ -130,9 +130,11 @@
   <ItemGroup>
     <ClCompile Include="CLogReader.cpp" />
     <ClCompile Include="MetaQuotesTest.cpp" />
+    <ClCompile Include="SimpleTimer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLogReader.h" />
+    <ClInclude Include="SimpleTimer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

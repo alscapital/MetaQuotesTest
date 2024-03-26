@@ -4,6 +4,7 @@
 //https://learn.microsoft.com/ru-ru/cpp/standard-library/regex-functions?view=msvc-170 
 
 #include "CLogReader.h"
+#include "SimpleTimer.h"
 
 /*
 Например:
@@ -17,7 +18,9 @@
 
 int main(int argc, char* argv[])
 {
-    char* file;
+	SimpleTimer timer;						// добавил простой таймер для замера результатов оптимизации
+
+	char* file;
     char* filter;
 
 
