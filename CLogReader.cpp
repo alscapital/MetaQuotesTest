@@ -5,12 +5,9 @@
 /// Конструктор
 /// </summary>
 /// <param name="filename"></param>
-CLogReader::CLogReader(const char* filename)
+CLogReader::CLogReader(const char* filename):filename_(filename), file_(nullptr),fileOpened_(false),filter_(nullptr)
 {
-	filename_ = filename;
-	file_ = nullptr;
-	fileOpened_ = false;
-	filter_ = nullptr;
+	
 }
 /// <summary>
 /// Деструктор
